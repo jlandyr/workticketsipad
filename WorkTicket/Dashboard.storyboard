@@ -39,7 +39,7 @@
                                     <action selector="didSelectCalendar:" destination="Y6W-OH-hqX" id="rng-ra-hnv"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Sync" image="arrow.clockwise.circle.fill" catalog="system" id="fQ3-JX-AkZ">
+                            <barButtonItem title="Sync" image="arrow.clockwise.circle" catalog="system" id="fQ3-JX-AkZ">
                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                 <connections>
                                     <action selector="didSelectSync:" destination="Y6W-OH-hqX" id="Ah2-8j-L30"/>
@@ -62,6 +62,7 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="buttonMenu" destination="lC3-Yt-1gq" id="pSE-Af-sZm"/>
                         <outlet property="tableView" destination="n0u-Yr-DzU" id="dUZ-XA-yy5"/>
                     </connections>
                 </viewController>
@@ -137,6 +138,7 @@
                     </view>
                     <connections>
                         <outlet property="datePicker" destination="5q7-5B-JLB" id="fbj-ww-h8t"/>
+                        <outlet property="labelTitle" destination="YeU-HD-Cpk" id="teI-TM-439"/>
                         <outlet property="textAddress" destination="0jQ-l2-gqq" id="eyK-qe-baP"/>
                         <outlet property="textName" destination="LGH-7a-1qe" id="uqo-0V-YgM"/>
                     </connections>
@@ -144,6 +146,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ys1-Ay-1ow" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="851.80935569285077" y="850.80645161290329"/>
+        </scene>
+        <!--Calendar View Controller-->
+        <scene sceneID="MQb-SD-WCP">
+            <objects>
+                <viewController storyboardIdentifier="CalendarViewController" id="R8F-qt-V8G" customClass="CalendarViewController" customModule="WorkTicket" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vrv-Q8-l1c">
+                        <rect key="frame" x="0.0" y="0.0" width="1133" height="744"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="l09-cE-PPJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3H0-dO-9Dw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1531" y="851"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fdB-6I-W4M">
@@ -165,7 +182,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.clockwise.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="arrow.clockwise.circle" catalog="system" width="128" height="123"/>
         <image name="calendar" catalog="system" width="128" height="107"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
         <image name="plus" catalog="system" width="128" height="113"/>
