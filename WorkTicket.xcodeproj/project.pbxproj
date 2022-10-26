@@ -7,24 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1EA3BC290832DE008FEDC2 /* Dashboard-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EA3BB290832DE008FEDC2 /* Dashboard-Extension.swift */; };
+		FE1EA3C32908373B008FEDC2 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EA3C12908373B008FEDC2 /* TicketTableViewCell.swift */; };
+		FE1EA3C42908373B008FEDC2 /* TicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1EA3C22908373B008FEDC2 /* TicketTableViewCell.xib */; };
+		FE1EA3C629089595008FEDC2 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EA3C529089595008FEDC2 /* DashboardViewModel.swift */; };
+		FE1EA3C929089DBE008FEDC2 /* NewTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EA3C829089DBE008FEDC2 /* NewTicketViewController.swift */; };
 		FE6583792906DCEE00D11028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583782906DCEE00D11028 /* AppDelegate.swift */; };
 		FE65837B2906DCEE00D11028 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65837A2906DCEE00D11028 /* SceneDelegate.swift */; };
-		FE65837D2906DCEE00D11028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65837C2906DCEE00D11028 /* ViewController.swift */; };
+		FE65837D2906DCEE00D11028 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65837C2906DCEE00D11028 /* LoginViewController.swift */; };
 		FE6583802906DCEE00D11028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE65837E2906DCEE00D11028 /* Main.storyboard */; };
 		FE6583822906DCEF00D11028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6583812906DCEF00D11028 /* Assets.xcassets */; };
 		FE6583852906DCEF00D11028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6583832906DCEF00D11028 /* LaunchScreen.storyboard */; };
 		FE65838E2906DD5C00D11028 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = FE65838D2906DD5C00D11028 /* SQLite */; };
+		FE6583922906E15700D11028 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583912906E15700D11028 /* Ticket.swift */; };
+		FE6583942906E3D600D11028 /* SQLiteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583932906E3D600D11028 /* SQLiteStore.swift */; };
+		FE6583962906E99100D11028 /* SQLiteStore-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583952906E99100D11028 /* SQLiteStore-Extension.swift */; };
+		FE65839C29073ADA00D11028 /* LoginView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65839B29073ADA00D11028 /* LoginView-Extension.swift */; };
+		FE65839F2907402F00D11028 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65839E2907402F00D11028 /* DesignableUITextField.swift */; };
+		FE6583A1290743B200D11028 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583A0290743B200D11028 /* LoginViewModel.swift */; };
+		FE6583A4290746E900D11028 /* Callbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583A3290746E900D11028 /* Callbacks.swift */; };
+		FE6583A729074C0D00D11028 /* ExtensionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583A629074C0D00D11028 /* ExtensionUIViewController.swift */; };
+		FE6583AA29074F3D00D11028 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583A929074F3D00D11028 /* LoginInteractor.swift */; };
+		FE6583AD29074F6D00D11028 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583AC29074F6D00D11028 /* LoginAPI.swift */; };
+		FE6583AF290750AF00D11028 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6583AE290750AF00D11028 /* Dashboard.storyboard */; };
+		FE6583B22907515000D11028 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6583B12907515000D11028 /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE1EA3BB290832DE008FEDC2 /* Dashboard-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard-Extension.swift"; sourceTree = "<group>"; };
+		FE1EA3C12908373B008FEDC2 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		FE1EA3C22908373B008FEDC2 /* TicketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketTableViewCell.xib; sourceTree = "<group>"; };
+		FE1EA3C529089595008FEDC2 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		FE1EA3C829089DBE008FEDC2 /* NewTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTicketViewController.swift; sourceTree = "<group>"; };
 		FE6583752906DCEE00D11028 /* WorkTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6583782906DCEE00D11028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE65837A2906DCEE00D11028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE65837C2906DCEE00D11028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE65837C2906DCEE00D11028 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FE65837F2906DCEE00D11028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE6583812906DCEF00D11028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE6583842906DCEF00D11028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE6583862906DCEF00D11028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6583912906E15700D11028 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		FE6583932906E3D600D11028 /* SQLiteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteStore.swift; sourceTree = "<group>"; };
+		FE6583952906E99100D11028 /* SQLiteStore-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SQLiteStore-Extension.swift"; sourceTree = "<group>"; };
+		FE65839B29073ADA00D11028 /* LoginView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView-Extension.swift"; sourceTree = "<group>"; };
+		FE65839E2907402F00D11028 /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		FE6583A0290743B200D11028 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FE6583A3290746E900D11028 /* Callbacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callbacks.swift; sourceTree = "<group>"; };
+		FE6583A629074C0D00D11028 /* ExtensionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIViewController.swift; sourceTree = "<group>"; };
+		FE6583A929074F3D00D11028 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		FE6583AC29074F6D00D11028 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		FE6583AE290750AF00D11028 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		FE6583B12907515000D11028 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE1EA3C729089DAA008FEDC2 /* NewTicket */ = {
+			isa = PBXGroup;
+			children = (
+				FE1EA3C829089DBE008FEDC2 /* NewTicketViewController.swift */,
+			);
+			path = NewTicket;
+			sourceTree = "<group>";
+		};
 		FE65836C2906DCEE00D11028 = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +102,102 @@
 			children = (
 				FE6583782906DCEE00D11028 /* AppDelegate.swift */,
 				FE65837A2906DCEE00D11028 /* SceneDelegate.swift */,
-				FE65837C2906DCEE00D11028 /* ViewController.swift */,
+				FE65839A29073AC500D11028 /* LoginView */,
+				FE6583B02907513F00D11028 /* DashboardView */,
+				FE1EA3C729089DAA008FEDC2 /* NewTicket */,
+				FE6583972906E9A300D11028 /* SQLite */,
+				FE6583902906E15100D11028 /* Models */,
+				FE6583A829074F1B00D11028 /* Interactors */,
+				FE6583AB29074F6000D11028 /* API */,
+				FE65839D2907402100D11028 /* Resources */,
+				FE6583A2290746E100D11028 /* Helpers */,
+				FE6583A529074C0200D11028 /* Extensions */,
 				FE65837E2906DCEE00D11028 /* Main.storyboard */,
+				FE6583AE290750AF00D11028 /* Dashboard.storyboard */,
 				FE6583812906DCEF00D11028 /* Assets.xcassets */,
 				FE6583832906DCEF00D11028 /* LaunchScreen.storyboard */,
 				FE6583862906DCEF00D11028 /* Info.plist */,
 			);
 			path = WorkTicket;
+			sourceTree = "<group>";
+		};
+		FE6583902906E15100D11028 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE6583912906E15700D11028 /* Ticket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE6583972906E9A300D11028 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				FE6583932906E3D600D11028 /* SQLiteStore.swift */,
+				FE6583952906E99100D11028 /* SQLiteStore-Extension.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		FE65839A29073AC500D11028 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				FE65837C2906DCEE00D11028 /* LoginViewController.swift */,
+				FE65839B29073ADA00D11028 /* LoginView-Extension.swift */,
+				FE6583A0290743B200D11028 /* LoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		FE65839D2907402100D11028 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE65839E2907402F00D11028 /* DesignableUITextField.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE6583A2290746E100D11028 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE6583A3290746E900D11028 /* Callbacks.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FE6583A529074C0200D11028 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE6583A629074C0D00D11028 /* ExtensionUIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE6583A829074F1B00D11028 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				FE6583A929074F3D00D11028 /* LoginInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		FE6583AB29074F6000D11028 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FE6583AC29074F6D00D11028 /* LoginAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FE6583B02907513F00D11028 /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				FE1EA3C12908373B008FEDC2 /* TicketTableViewCell.swift */,
+				FE1EA3C22908373B008FEDC2 /* TicketTableViewCell.xib */,
+				FE6583B12907515000D11028 /* DashboardViewController.swift */,
+				FE1EA3BB290832DE008FEDC2 /* Dashboard-Extension.swift */,
+				FE1EA3C529089595008FEDC2 /* DashboardViewModel.swift */,
+			);
+			path = DashboardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +266,9 @@
 			files = (
 				FE6583852906DCEF00D11028 /* LaunchScreen.storyboard in Resources */,
 				FE6583822906DCEF00D11028 /* Assets.xcassets in Resources */,
+				FE1EA3C42908373B008FEDC2 /* TicketTableViewCell.xib in Resources */,
 				FE6583802906DCEE00D11028 /* Main.storyboard in Resources */,
+				FE6583AF290750AF00D11028 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +279,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE65837D2906DCEE00D11028 /* ViewController.swift in Sources */,
+				FE6583A729074C0D00D11028 /* ExtensionUIViewController.swift in Sources */,
+				FE6583B22907515000D11028 /* DashboardViewController.swift in Sources */,
+				FE65837D2906DCEE00D11028 /* LoginViewController.swift in Sources */,
+				FE6583942906E3D600D11028 /* SQLiteStore.swift in Sources */,
 				FE6583792906DCEE00D11028 /* AppDelegate.swift in Sources */,
+				FE65839F2907402F00D11028 /* DesignableUITextField.swift in Sources */,
+				FE65839C29073ADA00D11028 /* LoginView-Extension.swift in Sources */,
+				FE6583AD29074F6D00D11028 /* LoginAPI.swift in Sources */,
+				FE1EA3C629089595008FEDC2 /* DashboardViewModel.swift in Sources */,
 				FE65837B2906DCEE00D11028 /* SceneDelegate.swift in Sources */,
+				FE6583A4290746E900D11028 /* Callbacks.swift in Sources */,
+				FE1EA3BC290832DE008FEDC2 /* Dashboard-Extension.swift in Sources */,
+				FE1EA3C32908373B008FEDC2 /* TicketTableViewCell.swift in Sources */,
+				FE6583AA29074F3D00D11028 /* LoginInteractor.swift in Sources */,
+				FE6583922906E15700D11028 /* Ticket.swift in Sources */,
+				FE1EA3C929089DBE008FEDC2 /* NewTicketViewController.swift in Sources */,
+				FE6583962906E99100D11028 /* SQLiteStore-Extension.swift in Sources */,
+				FE6583A1290743B200D11028 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +448,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,7 +459,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -327,7 +475,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
