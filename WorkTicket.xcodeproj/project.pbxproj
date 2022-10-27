@@ -102,6 +102,7 @@
 		FE1EA3D12909DD9C008FEDC2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FEA6067B290ADCAB001D999E /* Storyboards */,
 				FEA6067A290ADC90001D999E /* CollectionViews */,
 				FE1EA3D22909DDA1008FEDC2 /* TableViews */,
 			);
@@ -168,10 +169,6 @@
 				FE6583AB29074F6000D11028 /* API */,
 				FE65839D2907402100D11028 /* Resources */,
 				FE6583A2290746E100D11028 /* Helpers */,
-				FE65837E2906DCEE00D11028 /* Main.storyboard */,
-				FE6583AE290750AF00D11028 /* Dashboard.storyboard */,
-				FE1EA3D62909FD9E008FEDC2 /* WorkTicket.storyboard */,
-				FEA60675290AD9BD001D999E /* Directions.storyboard */,
 				FE6583812906DCEF00D11028 /* Assets.xcassets */,
 				FE6583832906DCEF00D11028 /* LaunchScreen.storyboard */,
 				FE6583862906DCEF00D11028 /* Info.plist */,
@@ -273,6 +270,17 @@
 				FE902077290AAD1C001EE486 /* OverviewTicketCollectionViewCell.xib */,
 			);
 			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		FEA6067B290ADCAB001D999E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FE65837E2906DCEE00D11028 /* Main.storyboard */,
+				FE6583AE290750AF00D11028 /* Dashboard.storyboard */,
+				FE1EA3D62909FD9E008FEDC2 /* WorkTicket.storyboard */,
+				FEA60675290AD9BD001D999E /* Directions.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
