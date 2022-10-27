@@ -63,8 +63,9 @@ class DashboardViewController: UIViewController {
             }
         }))
         
-        alert.addAction(UIAlertAction(title: "Get directions", style: .default, handler: { (action) in
-            print("get directions")
+        alert.addAction(UIAlertAction(title: "Get directions", style: .default, handler: {[weak self] (action) in
+            guard let self = self else {return}
+            self.navigateToDirections()
         }))
         if let popoverController = alert.popoverPresentationController {
             popoverController.sourceView = self.view

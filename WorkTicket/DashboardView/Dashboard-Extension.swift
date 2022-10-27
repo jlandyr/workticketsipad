@@ -47,10 +47,16 @@ extension DashboardViewController : UITableViewDelegate {
         return swipeActions
     }
     
+    //MARK: Navigation
     func navigateToTicket(ticket:Ticket){
         guard let ticketDetailViewController = UIStoryboard(name: "WorkTicket", bundle: nil).instantiateViewController(withIdentifier: "TicketDetailViewController") as? TicketDetailViewController else {return}
         ticketDetailViewController.ticket = ticket
         self.navigationController?.pushViewController(ticketDetailViewController, animated: true)
+    }
+    
+    func navigateToDirections(){
+        guard let directionsViewController = UIStoryboard(name: "Directions", bundle: nil).instantiateViewController(withIdentifier: "DirectionsViewController") as? DirectionsViewController else {return}
+        self.navigationController?.pushViewController(directionsViewController, animated: true)
     }
 }
 
