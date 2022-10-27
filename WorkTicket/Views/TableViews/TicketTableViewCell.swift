@@ -17,6 +17,7 @@ class TicketTableViewCell: UITableViewCell {
     @IBOutlet weak var labelAddress: UILabel!
     
     static let identifier = String(describing: TicketTableViewCell.self)
+    var didSelectViewTicket : ((Ticket) -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -32,10 +33,18 @@ class TicketTableViewCell: UITableViewCell {
     var ticket : Ticket? {
         didSet{
             guard let ticket = ticket else {return}
-            labelTicketNumber.text = ticket.identifier
+            labelTicketNumber.text = "Ticket #\(ticket.key)"
             labelName.text = ticket.name
             labelAddress.text = ticket.address
+            labelTime.text = ticket.date.timeHHMM
+            labelDate.text = ticket.date.dateShort
         }
+    }
+    
+    //MARK: Button Action
+    @IBAction func didSelectViewTicket(_ sender: UIButton) {
+        guard let ticket = self.ticket else {return}
+        didSelectViewTicket?(ticket)
     }
     
 }
