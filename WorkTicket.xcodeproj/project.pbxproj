@@ -102,6 +102,7 @@
 		FE1EA3D12909DD9C008FEDC2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FEA6067A290ADC90001D999E /* CollectionViews */,
 				FE1EA3D22909DDA1008FEDC2 /* TableViews */,
 			);
 			path = Views;
@@ -129,8 +130,6 @@
 			children = (
 				FE1EA3D92909FE23008FEDC2 /* TicketDetailViewController.swift */,
 				FE90207A290AB004001EE486 /* OverViewTicketExtension.swift */,
-				FE902076290AAD1C001EE486 /* OverviewTicketCollectionViewCell.swift */,
-				FE902077290AAD1C001EE486 /* OverviewTicketCollectionViewCell.xib */,
 			);
 			path = TicketDetail;
 			sourceTree = "<group>";
@@ -265,6 +264,15 @@
 				FEA60678290ADA12001D999E /* DirectionsViewController.swift */,
 			);
 			path = DirectionsView;
+			sourceTree = "<group>";
+		};
+		FEA6067A290ADC90001D999E /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				FE902076290AAD1C001EE486 /* OverviewTicketCollectionViewCell.swift */,
+				FE902077290AAD1C001EE486 /* OverviewTicketCollectionViewCell.xib */,
+			);
+			path = CollectionViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
