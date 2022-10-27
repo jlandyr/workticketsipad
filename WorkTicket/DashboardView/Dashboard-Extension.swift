@@ -10,7 +10,7 @@ import UIKit
 
 extension DashboardViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
+        return 160
     }
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
@@ -47,6 +47,11 @@ extension DashboardViewController : UITableViewDelegate {
         return swipeActions
     }
     
+    func navigateToTicket(ticket:Ticket){
+        guard let ticketDetailViewController = UIStoryboard(name: "WorkTicket", bundle: nil).instantiateViewController(withIdentifier: "TicketDetailViewController") as? TicketDetailViewController else {return}
+        ticketDetailViewController.ticket = ticket
+        self.navigationController?.pushViewController(ticketDetailViewController, animated: true)
+    }
 }
 
 class TicketTableViewDiffibleDataSource: UITableViewDiffableDataSource<Int, Ticket> {

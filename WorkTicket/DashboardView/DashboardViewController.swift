@@ -56,8 +56,11 @@ class DashboardViewController: UIViewController {
     
     @IBAction func didSelectMenu(_ sender: UIBarButtonItem) {
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
-        alert.addAction(UIAlertAction(title:"Work ticket", style: .default, handler: { (action) in
-            print("work ticket")
+        alert.addAction(UIAlertAction(title:"Work ticket", style: .default, handler: {[weak self] (action) in
+            guard let self = self else {return}
+            if let ticket = self.sortedTickets.first?.first {
+                self.navigateToTicket(ticket: ticket)
+            }
         }))
         
         alert.addAction(UIAlertAction(title: "Get directions", style: .default, handler: { (action) in
@@ -95,7 +98,7 @@ extension DashboardViewController {
             case .failure(let error): self.showAlert(title: "error", message: error.localizedDescription)
             case .success():
                 self.getTickets()
-                //TODO: go to WorkTicketScreen
+                self.navigateToTicket(ticket: ticket)
             }
         }
     }
@@ -152,6 +155,10 @@ extension DashboardViewController {
         tableDataSource = TicketTableViewDiffibleDataSource(tableView: tableView, cellProvider: { tableView, indexPath, ticket in
             let cell = tableView.dequeueReusableCell(withIdentifier: TicketTableViewCell.identifier) as! TicketTableViewCell
             cell.ticket = ticket
+            cell.didSelectViewTicket = {[weak self] ticket in
+                guard let self = self else {return}
+                self.navigateToTicket(ticket: ticket)
+            }
             return cell
         })
     }
